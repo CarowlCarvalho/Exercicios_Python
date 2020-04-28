@@ -1,0 +1,6 @@
+a = input('Digite algo: ')
+print ('É alfanúmerico: {} '.format(a.isalpha()))
+print ('Esta em caixa baixa: {}'.format(a.islower()))
+print ('É um número: {}'.format(a.isnumeric()))
+print ('É um espaço: {}'.format(a.isspace()))
+print ('Esta em caixa alta: {}'.format(a.isupper()))
